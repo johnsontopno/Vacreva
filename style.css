@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;}
+    #banner{
+    background: url(vintage-barbershop-illustration_225004-895.jpg);
+    background-size: cover;
+    background-position: center;
+}

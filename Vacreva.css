@@ -1,0 +1,490 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;}
+
+ 
+#myBtn1 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: rgb(255, 255, 255);
+  cursor: pointer;}
+
+#myBtn1:hover {
+  background: #ddd;
+  color: rgb(6, 6, 7);}
+
+body{
+  background-size: contain;
+  /* background-image: url(WhatsApp\ Image\ 2020-12-14\ at\ 12.08.37\ PM.jpeg) ; */
+  /* background-image: url(gears-686316_1280.jpg); */
+  
+  align-items: center;
+  width: auto;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;}
+
+
+.Info {
+  overflow: hidden;
+  /* background-image: url(500_F_330296570_HWK6SeVPiWaY3v7uXvFjhGO7Be7evWR3.jpg);
+  background-size: 70%; */}
+
+.Info input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;}
+
+.Info input[type=text]:focus {
+  width: 100%;}
+
+.logo{
+  margin: 10px;
+  height: 150px;}
+#tb1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(24, 106, 156);
+  font-size: larger;
+  position: relative;}
+.mySlides{
+  display: none;}
+
+.Welcome-msg1{
+  position: relative;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  /* top: 150px; */
+  width: 100%;
+  height: 100%;
+  font-size: x-large;
+  padding: 96px,20px,192px;}
+.Welcome-msg1 img{
+  height: 25%;}
+.Welcome-msg1 p{
+  /* background-image: url(white-technology-background_23-2148390332.jpg); */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  font-size: large;
+  color: black;
+  text-align: center;}
+
+.Welcome-msg2 {
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg2  p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(10, 10, 10);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.one{
+  height: 25%;}
+img.two{
+  height: 25%;}
+img.three{
+  height: 25%;}
+#tb4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(15, 15, 15);
+  font-size: larger;
+  position: relative;}
+/* #tb4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(24, 106, 156);
+  font-size: larger;
+  position: relative;} */
+#tb4  h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  position: relative;}
+#tb4  p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;}
+
+/* .Welcome-msg3{
+  position: relative;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(7, 4, 4);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;} */
+
+
+.Welcome-msg4{
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg4 p{
+  
+  position: relative;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(10, 1, 1);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+#tb-msg4{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+  font-size: larger;
+  position: relative;}
+
+
+.Welcome-msg5  {
+  direction: unset;
+  position: relative;
+  text-align:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.five{
+  height: 15%;}
+img.six{
+  height: 15%;}
+img.seven{
+  height: 15%;}
+#tb2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(15, 15, 15);
+    font-size: larger;
+    position: relative;
+    align-items: center;}
+
+.Welcome-msg6{
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg6 p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(11, 12, 12);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.eight{
+  height: 45%;
+  align-items: right;}
+
+.Welcome-msg7{
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large; }
+.Welcome-msg7 p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(11, 12, 12);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.nine{
+  height: 500px;
+  align-items: left;}
+
+.Welcome-msg8{
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg8 p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(11, 12, 12);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.ten{
+  height: 85%;}
+
+.Welcome-msg9{
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg9  p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(10, 10, 10);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.eleven{
+  height: 25%;}
+img.twelve{
+  height: 25%;}
+img.thirteen{
+  height: 25%;}
+img.fourteen{
+  height: 25%;}
+img.fifteen{
+  height: 25%;}
+img.sixteen{
+  height: 25%;}
+#tb3{ 
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color:black;
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+#tb3{ 
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+
+
+.Welcome-msg10{
+  position: relative;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg10 p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(11, 12, 12);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.seventeen{
+  height: 50%;}
+img.eighteen{
+  height: 50%;}
+img.nineteen{
+  height: 50%;}
+
+.Welcome-msg11{
+  position: relative;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+.Welcome-msg11 p{
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(11, 12, 12);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+img.google-logo{
+
+  width: 70%;}
+
+.Welcome-msg12 {
+  
+  position: relative;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(24, 106, 156);
+  width: 100%;
+  height: 100%;
+  font-size: x-large;}
+#tb6{
+  font-family: serif;
+  color:rgb(13, 13, 14);
+  text-align:center;
+  font-size: xx-large;
+  position: relative;}
+#tb6 p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-size: small;}
+#tb6 h2{
+  font-family: serif;
+  color:rgb(24, 106, 156);
+  text-align:center;
+  font-size: x-large;
+  position: relative;}
+
+
+.Welcome-msg13{
+    position: relative;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(11, 12, 12);
+    width: 100%;
+    height: 100%;
+    font-size: x-large;  }
+
+.Welcome-msg5 tb22{
+  text-align: center;}
+
+img.search-logo{
+  width:10%;}
+img.zero{
+  height: 100px;}
+img.four{
+  height: 75%;}
+img.twenty{
+  height: 20%;}
+#tb7 h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(24, 106, 156);}
+#tb7 p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;}
+
+
+
+
+
+
+
+
+#myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: rgb(255, 255, 255);
+  cursor: pointer;}
+
+#myBtn2:hover {
+  background: #ddd;
+  color: rgb(6, 5, 10);}
+
+
+
+
+
+
+
+
+.End1{
+  font-size:large;
+  background-color: gray;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  color:white;
+  width: 100%;
+  height: 100%;}
+img.logo-end{
+  height:100%;}
+img.FB-Logo{
+  height:5%;}
+img.Twitter-logo{
+  height: 5%;}
+img.Gmail-Logo{
+  height: 5%;}
+img.Instagram-logo{
+  height: 5%;}
+#tb5{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  position: relative;}
+#tb5 th {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(255, 255, 255);
+  
+  position: relative;}
+#tb5 p{
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:gray;
+  
+  position: relative;}
+
+.End2{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color:rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  font-size: x-small;}
+.btn{
+  font-size: 18px;
+  color: rgb(10, 1, 1);
+  margin: 5px;
+  padding: 7px 22px;
+  text-decoration: none;
+  border: 1px solid coral;
+  border-radius: 25px;}
+.btn-subscribe{
+  background: coral;}
+.btn-comments:hover  {
+  background: coral;
+  transition: .5s;}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(253, 251, 251, 0.651);
+  color: #050505;
+  width: 100%;
+  padding: 11px;}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: rgb(255, 255, 255);
+  cursor: pointer;}
+
+#myBtn:hover {
+  background: #ddd;
+  color: rgb(19, 2, 175);}
+
+
+.close{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%,-50%);}
+.close:hover{
+  background: rgba(185, 31, 51, 0.966);}
+
